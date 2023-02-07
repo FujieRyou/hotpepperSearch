@@ -1,0 +1,14 @@
+
+.contentWrap{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.shopFlexWrap{
+    padding: 16px;
+    width: auto;
+    border: solid 1px #000;
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}

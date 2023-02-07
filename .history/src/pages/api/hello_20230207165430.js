@@ -10,7 +10,7 @@ export default async function handler(req,res){
   // const kyeword = `鍋`
 
   const responce = await
-  fetch(`http://webservice.recruit.co.jp/hotpepper/gourmet/v1/?key=${apiKey}&keyword=${req.query.keyword}&format=json`)
+  fetch(`http://webservice.recruit.co.jp/hotpepper/gourmet/v1/?key=${apiKey}&keyword=${req.query.kyeword}&format=json`)
   const hotGurume = await responce.json()
   res.status(200).json({hotGurume})
 
